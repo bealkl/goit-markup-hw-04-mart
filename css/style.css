@@ -9,255 +9,239 @@
 /* default settings for page  */
 
 :root {
-    --color-white: #ffffff;
-    --color-98: rgb(98, 98, 98);
-    --color-menu: rgb(15, 1, 1);
-    --color-menu-hover: rgb(26, 188, 156);
-    --color-feature-product: rgb(81, 81, 81);
-    --color-product-bg: rgb(233, 240, 253);
+  --color-white: #ffffff;
+  --color-98: rgb(98, 98, 98);
+  --color-menu: rgb(15, 1, 1);
+  --color-menu-hover: rgb(26, 188, 156);
+  --color-feature-product: rgb(81, 81, 81);
+  --color-product-bg: rgb(233, 240, 253);
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-    padding: 0;
-    margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
-
 
 /* some specific setting */
 
 body {
-    color: var(--color-98);
-    background-color: #fff;
+  color: var(--color-98);
+  background-color: #fff;
 }
 
 .container {
-    width: 1110px;
-    margin: 0 auto;
+  width: 1110px;
+  margin: 0 auto;
 }
 
 .menu-section {
-    display: flex;
-    align-items: center;
-    padding-top: 38px;
-    margin-bottom: 105px;
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+  margin-bottom: 105px;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.786;
-    width: 467px;
-    color: var(-color-menu);
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.786;
+  width: 467px;
+  color: var(-color-menu);
+  list-style: none;
 }
 
 .menu-link {
-    color: var(--color-menu);
-    text-decoration: none;
+  color: var(--color-menu);
+  text-decoration: none;
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--color-menu-hover);
-    cursor: pointer;
+  color: var(--color-menu-hover);
+  cursor: pointer;
 }
 
-
 .nav-logo {
-    flex-grow: 1;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: rgb(85, 82, 82);
-    text-transform: uppercase;
-    line-height: 1.067;
-    text-decoration: none;
+  flex-grow: 1;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: rgb(85, 82, 82);
+  text-transform: uppercase;
+  line-height: 1.067;
+  text-decoration: none;
 }
 
 .nav-logo::first-letter {
-    color: rgb(26, 188, 156);
+  color: rgb(26, 188, 156);
 }
 
 .blog-section-name,
 .product-section-name {
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: var(--color-feature-product);
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 0.667;
-    margin: 0 auto 92px;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: var(--color-feature-product);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.667;
+  margin: 0 auto 92px;
 }
 
 .product-gallery {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-card {
-    display: inline-flexbox;
-    width: 255px;
-    height: 322px;
-    background-color: var(--color-product-bg);
-    justify-content: space-between;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.778;
-    margin-right: 30px;
-}
-
-.product-image {
-    /* display: block; */
-    /* width: : 255px; */
-    /* align-items: center; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* height: 284px; */
+  display: inline-flexbox;
+  width: 255px;
+  height: 322px;
+  background-color: var(--color-product-bg);
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.778;
+  margin-right: 30px;
 }
 
 .product-card:nth-child(4n) {
-    margin-right: 0;
+  margin-right: 0;
 }
 
-.product-card:nth-child(-n+4) {
-    margin-bottom: 30px;
+.product-card:nth-child(-n + 4) {
+  margin-bottom: 30px;
 }
 
 .product-info {
-    display: inline-flex;
-    align-items: center;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.778;
-    width: 255px;
-    height: 40px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.778;
+  width: 255px;
+  height: 40px;
 }
 
 .product-name {
-    background-color: black;
-    padding-left: 15px;
-    flex-grow: 1;
+  background-color: black;
+  padding-left: 15px;
+  flex-grow: 1;
 }
 
 .product-proce {
-    background-color: rgba(0, 0, 0, 0.439);
-    width: 54px;
-    text-align: center;
+  background-color: rgba(0, 0, 0, 0.439);
+  width: 54px;
+  text-align: center;
 }
 
 .product-card:hover .product-name,
 .product-card:focus .product-name {
-    background-color: var(--color-menu-hover);
-    cursor: pointer;
+  background-color: var(--color-menu-hover);
+  cursor: pointer;
 }
 
 .product-card:hover .product-proce,
 .product-card:focus .product-proce {
-    background-color: rgba(26, 188, 156, 0.439);
-    cursor: pointer;
+  background-color: rgba(26, 188, 156, 0.439);
+  cursor: pointer;
 }
 
 .blog {
-    margin-top: 105px;
-
-}
-
-.blog-body {
-    margin-bottom: 37px;
+  margin-top: 105px;
+  margin-bottom: 37px;
 }
 
 .blog-img {
-    width: 350px;
-    height: 262px;
-    margin-bottom: 16px;
+  width: 350px;
+  height: 262px;
+  margin-bottom: 16px;
 }
 
 .blog-list {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .blog-item-header,
 .blog-item-text {
-    width: 350px;
+  width: 350px;
 }
 
 .blog-item-header {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    /* semibold */
-    color: rgb(85, 82, 82);
-    line-height: 1.444;
-    margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  /* semibold */
+  color: rgb(85, 82, 82);
+  line-height: 1.444;
+  margin-bottom: 30px;
 }
 
 .blog-item-header::after {
-    display: block;
-    position: relative;
-    content: "";
-    height: 3px;
-    width: 136px;
-    background-color: rgb(78, 198, 171);
-    bottom: -15px;
+  display: block;
+  position: relative;
+  content: '';
+  height: 3px;
+  width: 136px;
+  background-color: rgb(78, 198, 171);
+  bottom: -15px;
 }
 
 .blog-item-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    /* regular */
-    color: rgb(85, 82, 82);
-    line-height: 26px;
-    letter-spacing: -0.2px;
-    margin-bottom: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  /* regular */
+  color: rgb(85, 82, 82);
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  margin-bottom: 18px;
 }
 
 .read-more-button {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    /* light */
-    color: rgb(255, 255, 255);
-    line-height: 1.625;
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: none;
-    -moz-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  /* light */
+  color: rgb(255, 255, 255);
+  line-height: 1.625;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  /* -moz-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
     -webkit-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
-    -ms-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
-    display: block;
-    width: 160px;
-    height: 51px;
-    border-radius: 3px;
-    background-color: rgb(78, 198, 171);
-    box-shadow: -2px -2px 5px rgba(0, 0, 0, 39%);
-    transition: 0.2s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    -ms-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0); */
+  display: block;
+  width: 160px;
+  height: 51px;
+  border-radius: 3px;
+  background-color: rgb(78, 198, 171);
+  box-shadow: -2px -2px 5px rgba(0, 0, 0, 39%);
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .read-more-button:hover {
-    background-color: rgb(156, 197, 188);
+  background-color: rgb(156, 197, 188);
 }
